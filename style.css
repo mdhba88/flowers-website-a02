@@ -1,0 +1,482 @@
+/* inter fonts- font-family: "Inter", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* noto serif fonts- font-family: "Noto Serif", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F8FF;
+}
+
+/* max-width with all section */
+#headerContainer{
+    max-width: 1440px;
+    margin: 30px 150px 0;
+}
+
+
+/* container max-width section */
+.navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.mobileNavigation{
+    display: none;
+}
+.navListContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.navListContainer li{
+    list-style: none;
+}
+.navListContainer li a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+}
+.navListContainer li:nth-child(1) a{
+    font-weight: 800;
+    color: #252432;
+}
+.navListContainer li:nth-child(2) a{
+    font-weight: 400;
+    color: #8987A1;
+}
+.navListContainer li:nth-child(3) a{
+    font-weight: 400;
+    color: #8987A1;
+}
+.navListContainer li:nth-child(4) a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    font-weight: 400;
+    color: black;
+}
+.navListContainer li:nth-child(4) a i{
+    font-size: 1.5rem;
+    color: black;
+}
+
+
+/* home section */
+#homeSectionContainer{
+    max-width: 1440px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 120px 150px 0;
+}
+.homeTitleDesContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.homeTitleDesContainer h1{
+    font-family: "Noto Serif", serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+.homeTitleDesContainer h1 span{
+    color: #E95A08;
+}
+.homeTitleDesContainer p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.98rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.homeImgContainer img{
+    width: 570px;
+}
+
+/* our plants section */
+#ourPlantsSectionContainer{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 150px 0;
+    gap: 3.12rem;
+}
+.ourPlantsText{
+    padding: 0 126px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.ourPlantsText h1{
+    font-family: "Noto Serif", serif;
+    font-weight: 800;
+    font-size: 3.12rem;
+    text-align: center;
+}
+.ourPlantsText h1 span{
+    color: #E95A08;
+}
+.ourPlantsText p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.98rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.plansCardsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+}
+.plantsCardsItemContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.87rem;
+}
+.cardText{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.cardText p{
+    font-size: 1.37rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.cardText p:last-child{
+    font-size: 1.37rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+}
+.cardImg img{
+    width: 225px;
+}
+.plantsCardBtn button{
+    padding: 0.75rem 4.70rem;
+    background-color: #E95A08;
+    color: white;
+    border: none;
+}
+
+
+/* flower & plants lover section */
+#flowerAndPlantsContainer{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 150px 0;
+    gap: 3.75rem;
+}
+.flowerParent{
+    width: 430px;
+    position: relative;
+}
+.flowerChild{
+    width: 250px;
+    position: absolute;
+    margin: -111px 0 0 -166px;
+    filter: drop-shadow(-4px 10px 2px rgba(0, 0, 0, 0.25));
+}
+.flowerAndPlantsText{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: center;
+    justify-content: center;
+}
+.flowerAndPlantsText h1{
+    font-family: "Noto Serif", serif;
+    font-weight: 800;
+    font-size: 3.12rem;
+}
+.flowerAndPlantsText ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-left: 2rem;
+}
+.flowerAndPlantsText ul li{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.98rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+/* latest deals section */
+#latestDealsContainer{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 150px 0;
+    gap: 1rem;
+    padding: 0 126px 0;
+}
+#latestDealsContainer h1{
+    font-family: "Noto Serif", serif;
+    font-weight: 800;
+    font-size: 3.12rem;
+    text-align: center;
+}
+#latestDealsContainer h1 span{
+    color: #E95A08;
+}
+#latestDealsContainer p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.98rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+/* image gallery section */
+#imageGalleryContainer{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 120px 150px 0;
+    gap: 1.75rem;
+}
+.smallImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+/* small image one */
+.smallImageOne{
+    position: relative;
+}
+.smallImageOne img{
+    width: 100%;
+}
+.smallImageOneText{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.smallImageOneText p{
+    font-family: "Noto Serif", serif;
+    font-size: 1.25rem;
+    color: white;
+}
+.smallImageOneText a{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* small image two */
+.smallImageTwo{
+    position: relative;
+}
+.smallImageTwo img{
+    width: 100%;
+}
+.smallImageTwoText{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.smallImageTwoText p{
+    font-family: "Noto Serif", serif;
+    font-size: 1.25rem;
+    color: white;
+}
+.smallImageTwoText a{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* large image */
+.largeImage{
+    position: relative;
+    width: 753px;
+}
+.largeImage div img{
+    width: 100%;
+}
+.largeImageText{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.largeImageText p{
+    font-family: "Noto Serif", serif;
+    font-size: 2.5rem;
+    color: white;
+}
+.largeImageText a{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+    border-bottom: 1.5px solid white;
+    text-decoration: none;
+    font-size: 1.75rem;
+}
+
+
+/* join section form */
+#joinSectionFormContainer{
+    padding: 160px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 0 0;
+    gap: 1.45rem;
+    background-image: url(assets/news-letter-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#joinSectionFormContainer p{
+    font-family: "Noto Serif", serif;
+    font-weight: 800;
+    font-size: 3.12rem;
+    text-align: center;
+    color: white;
+}
+.joinSubmitBtn input{
+    background-color: white;
+    position: relative;
+    padding: 12px 20px;
+    border: none;
+    width: 830px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.joinSubmitBtn button{
+    padding: 12px 20px;
+    border: none;
+    background-color: #E95A08;
+    position: absolute;
+    right: 217px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+
+/* footer section */
+#footerSection{
+    max-width: 1440px;
+    margin: 120px 150px;
+}
+.footerSectionContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3.12rem;
+}
+.footerLogoDescription{
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footerLogoDescription img{
+    width: 135px;
+}
+.footerLogoDescription p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #6B7280;
+}
+.menuContainer{
+    display: flex;
+    min-width: 300px;
+    gap: 40px;
+}
+.footerMenuFirst{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.footerMenuFirst a{
+    text-decoration: none;
+    color: #6B7280;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.footerMenuSecond{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.footerMenuSecond a{
+    text-decoration: none;
+    color: #6B7280;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.footerIcon{
+    display: flex;
+    gap: 1.62rem;
+}
+.footerIcon img{
+    width: 2.25rem;
+}
